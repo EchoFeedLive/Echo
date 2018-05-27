@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post</title>
+
+    <link rel="stylesheet" href="post.css">
+    <link rel="javascript" href="post.js">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col">
+        <div class="outline row no-gutters" id="post-title">
+            <!--<div class="col-1" id="vote-buttons">
+                <div class="row no-gutters">
+                    <div class="col square" id="pro-button"></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col square" id="con-button"></div>
+                </div>
+            </div>-->
+            <div class="col align-self-center" style="/*margin-left: 20px;*/">
+                <div class="row justify-content-center">
+                    <h3 class="text-nowrap" id="post-title">This is the post title</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="post-body">
+            <div class="col">
+                <div class="row justify-content-center"><p id="post-body">This is the post body</p></div>
+            </div>
+        </div>
+        <div class="row" id="discussion">
+            <div class="col">
+                
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Reply to the contributor"></textarea>
+                            <div class="row justify-content-right">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-default float-right">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                <div class="row justify-content-center">
+                    <h6>No threads have been started</h6>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <div class="row justify-content-center">
+                <div class="col-auto">   
+                    <h4 class="text-nowrap text-left">Markdown? Nah, we use TypeWrite</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <button class="btn d-md-none" href="typewrite.html">Learn More</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
