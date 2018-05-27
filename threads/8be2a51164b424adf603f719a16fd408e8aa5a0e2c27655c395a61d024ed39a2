@@ -1,6 +1,7 @@
-<parent-THA>
 <meta>
-  <loc>https://raw.githubusercontent.com/EchoFeedLive/Echo/master/threads/parent-THA.xml</loc>
+  <loc>
+    https://raw.githubusercontent.com/EchoFeedLive/Echo/master/threads/8be2a51164b424adf603f719a16fd408e8aa5a0e2c27655c395a61d024ed39a2.xml
+  </loc>
 </meta>
 
 <body>
@@ -10,4 +11,3 @@
 <replies>
   <reply-THA>https://raw.githubusercontent.com/echofeedlive/Echo/threads/reply-THA.xml</reply-THA>
 </replies>
-</parent-THA>
