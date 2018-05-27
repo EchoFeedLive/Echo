@@ -1,0 +1,13 @@
+<parent-THA>
+<meta>
+  <loc>https://raw.githubusercontent.com/echofeedlive/Echo/threads/parent-THA.xml</loc>
+</meta>
+
+<body>
+  This is thread-content.
+</body>
+
+<replies>
+  <reply-THA>https://raw.githubusercontent.com/echofeedlive/Echo/threads/reply-THA.xml</reply-THA>
+</replies>
+</parent-THA>
